@@ -1,50 +1,59 @@
 import React, { useContext, useState } from 'react';
 import AuthContext from '../Context/AuthContext';
 import Lottie from 'lottie-react';
-import login from '../assets/login.json'
+import login from '../assets/login.json';
 import axios from 'axios'; // Ensure axios is imported
 import { useLocation, useNavigate } from 'react-router-dom';
-const Singin = () => {
-    const [passwordError, setPasswordError] = useState('');
-    const location = useLocation()
-  const { Signin  } = useContext(AuthContext);
-      const navigate = useNavigate()
-const fromm = location.state || '/';
 
+const Singin = () => {
+  const [passwordError, setPasswordError] = useState('');
+  const location = useLocation();
+  const { Signin } = useContext(AuthContext);
+  const navigate = useNavigate();
+  
+  const fromm = location.state?.from || '/'; 
 
   const HandleRegister = (e) => {
     e.preventDefault();
     const from = e.target;
-   
+    
     const email = from.email.value;
     const pass = from.password.value;
-    console.log( email, pass);
+    console.log(email, pass);
 
-    Signin(email,pass)
-    .then(result=>{
-      console.log('sign in', result.user);
-      const user = {email: email}
-      axios .post('http://localhost:5000/jwt',user, {withCredentials:true})
-      .then(res=>{
-        console.log(res.data);
+    Signin(email, pass)
+      .then(result => {
+        console.log('sign in', result.user);
+        const user = { email: email };
+        axios.post('https://server-wheat-iota.vercel.app/jwt', user, { withCredentials: true })
+          .then(res => {
+            console.log(res.data);  
+            if (res.data.token) {
+       
+              navigate(fromm); 
+            }
+          })
+          .catch(error => {
+            console.log(error);
+            setPasswordError('Failed to login. Please try again.');
+          });
       })
-      // navigate(fromm)
-    })
-    .catch(error=>{
-      console.log(error);
-    })
+      .catch(error => {
+        console.log(error);
+        setPasswordError('Invalid credentials. Please check your email and password.');
+      });
   };
-    return (
-        <div>
-              <div className="hero bg-base-200 min-h-screen">
+
+  return (
+    <div>
+      <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left w-90">
             <Lottie animationData={login} />
           </div>
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <h1 className="mt-10 ml-8 text-5xl font-bold">login now!</h1>
+            <h1 className="mt-10 ml-8 text-5xl font-bold">Login now!</h1>
             <form className="card-body" onSubmit={HandleRegister}>
-            
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
@@ -64,15 +73,14 @@ const fromm = location.state || '/';
                 </label>
               </div>
               <div className="form-control mt-6">
-              <button className="btn btn-primary">Login</button>
-
+                <button className="btn btn-primary">Login</button>
               </div>
             </form>
           </div>
         </div>
       </div>   
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Singin;

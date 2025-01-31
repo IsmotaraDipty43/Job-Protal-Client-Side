@@ -1,202 +1,333 @@
 [
-  {
-    "title": "Software Engineer",
-    "location": "Halishohor, Chittagong",
-    "jobType": "Hybrid",
-    "category": "Engineering",
-    "applicationDeadline": "2024-12-31",
-    "salaryRange": {
-      "min": 40000,
-      "max": 60000,
-      "currency": "bdt"
+    {
+      "name": "John Doe",
+      "image": "https://i.ibb.co.com/GtkwgWp/male2.jpg",
+      "language": "English",
+      "price": "$20/hour",
+      "ratting": 4.5,
+      "review": 0,
+      "details": "Experienced in teaching English grammar and conversation.",
+      "category": "english",
+      "email": "john.doe@example.com"
     },
-    "description": "We are seeking a skilled Software Engineer to join our dynamic team. The candidate will work on diverse projects and contribute to innovative solutions.",
-    "company": "Favorite IT",
-    "requirements": ["JavaScript", "React", "Node.js", "MongoDB"],
-    "responsibilities": ["Develop and maintain software", "Collaborate with the team", "Participate in code reviews"],
-    "status": "active",
-    "hr_email": "hr@techsolutions.com",
-    "hr_name": "Farhan Rahman",
-    "company_logo": "https://i.ibb.co/mXD5MNf/facebook.png"
-  },
-  {
-    "title": "Marketing Specialist",
-    "location": "Banani, Dhaka",
-    "jobType": "Remote",
-    "category": "Marketing",
-    "applicationDeadline": "2024-12-15",
-    "salaryRange": {
-      "min": 30000,
-      "max": 50000,
-      "currency": "bdt"
+    {
+      "name": "Jane Smith",
+      "image": "https://i.ibb.co.com/wggg5Qv/female2.jpg",
+      "language": "English",
+      "price": "$25/hour",
+      "ratting": 4.7,
+      "review": 0,
+      "details": "Specializes in business English and academic writing.",
+      "category": "english",
+      "email": "jane.smith@example.com"
     },
-    "description": "Join our marketing team to strategize and implement innovative campaigns for our products and services.",
-    "company": "GoatMark Inc",
-    "requirements": ["Google Analytics", "SEO", "Content Management Systems", "Excel"],
-    "responsibilities": ["Develop marketing strategies", "Manage ad campaigns", "Analyze campaign performance"],
-    "status": "active",
-    "hr_email": "recruitment@brightmark.com",
-    "hr_name": "Tasnia Ahmed",
-    "company_logo": "https://i.ibb.co/TvvzXfq/google.png"
-  },
-  {
-    "title": "Finance Manager",
-    "location": "Gulshan, Dhaka",
-    "jobType": "Part-Time",
-    "category": "Finance",
-    "applicationDeadline": "2024-12-20",
-    "salaryRange": {
-      "min": 50000,
-      "max": 70000,
-      "currency": "bdt"
+    {
+      "name": "Carlos Rivera",
+      "image": "https://i.ibb.co.com/s3ZZZPC/male3.jpg",
+      "language": "Spanish",
+      "price": "$18/hour",
+      "ratting": 4.8,
+      "review": 0,
+      "details": "Native speaker with a focus on conversational Spanish.",
+      "category": "spanish",
+      "email": "carlos.rivera@example.com"
     },
-    "description": "We are hiring a Finance Manager to oversee financial operations, budgeting, and reporting.",
-    "company": "Local Inch Ltd",
-    "requirements": ["QuickBooks", "SAP", "Excel", "SQL"],
-    "responsibilities": ["Manage budgets", "Prepare financial reports", "Ensure regulatory compliance"],
-    "status": "active",
-    "hr_email": "finance.hr@securefinance.com",
-    "hr_name": "Md. Alamgir",
-    "company_logo": "https://i.ibb.co/T1XRmbX/linkedin.png"
-  },
-  {
-    "title": "Content Writer",
-    "location": "Uttara, Dhaka",
-    "jobType": "Contractual",
-    "category": "Marketing",
-    "applicationDeadline": "2024-12-25",
-    "salaryRange": {
-      "min": 20000,
-      "max": 35000,
-      "currency": "bdt"
+    {
+      "name": "Maria Gonzalez",
+      "image": "https://i.ibb.co.com/HPYHJ9s/female4.jpg",
+      "language": "Spanish",
+      "price": "$22/hour",
+      "ratting": 4.6,
+      "review": 0,
+      "details": "Certified Spanish teacher with 5 years of experience.",
+      "category": "spanish",
+      "email": "maria.gonzalez@example.com"
     },
-    "description": "We are looking for a talented Content Writer to create compelling content for our digital platforms.",
-    "company": "Munir soft.",
-    "requirements": ["WordPress", "SEO", "Google Docs", "Grammarly"],
-    "responsibilities": ["Write blog posts", "Create social media content", "Develop email campaigns"],
-    "status": "active",
-    "hr_email": "hr@creativehub.com",
-    "hr_name": "Anika Chowdhury",
-    "company_logo": "https://i.ibb.co/MhsV6wz/microsoft.png"
-  },
-  {
-    "title": "Teaching Assistant",
-    "location": "Chawkbazar, Chittagong",
-    "jobType": "Intern",
-    "category": "Teaching",
-    "applicationDeadline": "2024-12-22",
-    "salaryRange": {
-      "min": 10000,
-      "max": 15000,
-      "currency": "bdt"
+    {
+      "name": "Pierre Dupont",
+      "image": "https://i.ibb.co.com/MkhLMXV/male5.jpg",
+      "language": "French",
+      "price": "$30/hour",
+      "ratting": 5,
+      "review": 0,
+      "details": "Fluent in French and English, focusing on French for beginners.",
+      "category": "french",
+      "email": "pierre.dupont@example.com"
     },
-    "description": "Assist in preparing course materials and support teachers in classroom activities.",
-    "company": "Never Flixed.",
-    "requirements": ["Google Slides", "Zoom", "MS Office", "Google Docs"],
-    "responsibilities": ["Assist in lesson planning", "Support classroom management", "Conduct tutoring sessions"],
-    "status": "active",
-    "hr_email": "careers@knowledgebridge.com",
-    "hr_name": "Samiul Islam",
-    "company_logo": "https://i.ibb.co/ThtyXpz/netflix.png"
-  },
-  {
-    "title": "Project Manager",
-    "location": "Mirpur, Dhaka",
-    "jobType": "Hybrid",
-    "category": "Management",
-    "applicationDeadline": "2024-12-30",
-    "salaryRange": {
-      "min": 60000,
-      "max": 90000,
-      "currency": "bdt"
+    {
+      "name": "Sophie Martin",
+      "image": "https://i.ibb.co.com/yQvw0Sp/female6.jpg",
+      "language": "French",
+      "price": "$28/hour",
+      "ratting": 4.9,
+      "review": 0,
+      "details": "Experienced in teaching both conversational and formal French.",
+      "category": "french",
+      "email": "sophie.martin@example.com"
     },
-    "description": "We are seeking a dynamic Project Manager to lead our development team and ensure successful project delivery.",
-    "company": "Nicola Tesla.",
-    "requirements": ["JIRA", "Trello", "Slack", "Agile Methodologies"],
-    "responsibilities": ["Oversee project execution", "Manage team workflows", "Ensure timely project delivery"],
-    "status": "active",
-    "hr_email": "hr@innovatetech.com",
-    "hr_name": "Tahsin Rahman",
-    "company_logo": "https://i.ibb.co/26n3Jp7/tesla.png"
-  },
-  {
-    "title": "Data Scientist",
-    "location": "Mohakhali, Dhaka",
-    "jobType": "Full-Time",
-    "category": "Data Science",
-    "applicationDeadline": "2024-12-28",
-    "salaryRange": {
-      "min": 80000,
-      "max": 120000,
-      "currency": "bdt"
+    {
+      "name": "Mia Zhang",
+      "image": "https://i.ibb.co.com/Qc8By0D/female9.jpg",
+      "language": "Mandarin",
+      "price": "$35/hour",
+      "ratting": 4.4,
+      "review": 0,
+      "details": "Fluent in Mandarin and English, specialized in business Mandarin.",
+      "category": "mandarin",
+      "email": "mia.zhang@example.com"
     },
-    "description": "Analyze large datasets to extract meaningful insights and develop predictive models.",
-    "company": "DataWorx Ltd",
-    "requirements": ["Python", "TensorFlow", "SQL", "Tableau"],
-    "responsibilities": ["Develop predictive models", "Clean and analyze data", "Present data-driven insights"],
-    "status": "active",
-    "hr_email": "data.hr@dataworx.com",
-    "hr_name": "Rifat Karim",
-    "company_logo": "https://i.ibb.co/pvG4Ph9/icons8-amazon-logo-96.png"
-  },
-  {
-    "title": "UI/UX Designer",
-    "location": "Dhanmondi, Dhaka",
-    "jobType": "Remote",
-    "category": "Design",
-    "applicationDeadline": "2024-12-18",
-    "salaryRange": {
-      "min": 40000,
-      "max": 70000,
-      "currency": "bdt"
+    {
+      "name": "Xiao Li",
+      "image": "https://i.ibb.co.com/vj8Wn4K/male6.jpg",
+      "language": "Mandarin",
+      "price": "$32/hour",
+      "ratting": 4.7,
+      "review": 0,
+      "details": "Focuses on HSK preparation and conversational Mandarin.",
+      "category": "mandarin",
+      "email": "xiao.li@example.com"
     },
-    "description": "Create engaging user interfaces and improve user experience for our applications.",
-    "company": "Designify",
-    "requirements": ["Figma", "Adobe XD", "HTML", "CSS"],
-    "responsibilities": ["Design prototypes", "Conduct user research", "Collaborate with developers"],
-    "status": "active",
-    "hr_email": "design.jobs@designify.com",
-    "hr_name": "Afsana Noor",
-    "company_logo": "https://i.ibb.co/r5WyzKm/icons8-apple-logo-100.png"
-  },
-  {
-    "title": "DevOps Engineer",
-    "location": "Baridhara, Dhaka",
-    "jobType": "Full-Time",
-    "category": "Engineering",
-    "applicationDeadline": "2024-12-22",
-    "salaryRange": {
-      "min": 70000,
-      "max": 100000,
-      "currency": "bdt"
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://i.ibb.co.com/dWqC1GN/male4.jpg",
+      "language": "Hindi",
+      "price": "$15/hour",
+      "ratting": 4.3,
+      "review": 0,
+      "details": "Expert in teaching Hindi grammar and literature.",
+      "category": "hindi",
+      "email": "rajesh.kumar@example.com"
     },
-    "description": "Build and maintain CI/CD pipelines and ensure reliable infrastructure.",
-    "company": "InfraOps",
-    "requirements": ["Docker", "Kubernetes", "AWS", "Terraform"],
-    "responsibilities": ["Implement CI/CD", "Monitor infrastructure", "Automate deployment processes"],
-    "status": "active",
-    "hr_email": "hr@infraops.com",
-    "hr_name": "Hasibul Hossain",
-    "company_logo": "https://i.ibb.co/Kw72gGC/icons8-youtube-logo-100.png"
-  },
-  {
-    "title": "Mobile App Developer",
-    "location": "Bashundhara, Dhaka",
-    "jobType": "Hybrid",
-    "category": "Development",
-    "applicationDeadline": "2024-12-25",
-    "salaryRange": {
-      "min": 50000,
-      "max": 80000,
-      "currency": "bdt"
+    {
+      "name": "Anjali Sharma",
+      "image": "https://i.ibb.co.com/wyGzwrq/female16.jpg",
+      "language": "Hindi",
+      "price": "$18/hour",
+      "ratting": 4.5,
+      "review": 0,
+      "details": "Specializes in Hindi conversation and basic grammar.",
+      "category": "hindi",
+      "email": "anjali.sharma@example.com"
     },
-    "description": "Develop and maintain mobile applications for Android and iOS platforms.",
-    "company": "AppCrafter",
-    "requirements": ["Flutter", "Kotlin", "Swift", "Firebase"],
-    "responsibilities": ["Develop mobile apps", "Ensure app performance", "Collaborate with backend teams"],
-    "status": "active",
-    "hr_email": "jobs@appcrafter.com",
-    "hr_name": "Tareq Anwar",
-    "company_logo": "https://i.ibb.co/BLVwZzZ/icons8-whatsapp-logo-94.png"
-  }
-]
+    {
+      "name": "Ahmed Ali",
+      "image": "https://i.ibb.co.com/DKLy7C5/male8.jpg",
+      "language": "Arabic",
+      "price": "$25/hour",
+      "ratting": 4.8,
+      "review": 0,
+      "details": "Native Arabic speaker with a focus on business Arabic.",
+      "category": "arabic",
+      "email": "ahmed.ali@example.com"
+    },
+    {
+      "name": "Layla Hassan",
+      "image": "https://i.ibb.co.com/D5pnpm4/female17.jpg",
+      "language": "Arabic",
+      "price": "$28/hour",
+      "ratting": 4.6,
+      "review": 0,
+      "details": "Teaches both modern standard Arabic and colloquial dialects.",
+      "category": "arabic",
+      "email": "layla.hassan@example.com"
+    },
+    {
+      "name": "Yuki Tanaka",
+      "image": "https://i.ibb.co.com/TR43cJq/female3.jpg",
+      "language": "Japanese",
+      "price": "$40/hour",
+      "ratting": 4.9,
+      "review": 0,
+      "details": "Native Japanese speaker with a focus on reading and writing.",
+      "category": "japanese",
+      "email": "yuki.tanaka@example.com"
+    },
+    {
+      "name": "Hiroshi Yamamoto",
+      "image": "https://i.ibb.co.com/MkhLMXV/male5.jpg",
+      "language": "Japanese",
+      "price": "$38/hour",
+      "ratting": 4.8,
+      "review": 0,
+      "details": "Specializes in Japanese conversation and cultural lessons.",
+      "category": "japanese",
+      "email": "hiroshi.yamamoto@example.com"
+    },
+    {
+      "name": "Emma Wilson",
+      "image": "https://i.ibb.co.com/Ykbr5Xg/yamada.png",
+      "language": "English",
+      "price": "$27/hour",
+      "ratting": 4.5,
+      "review": 0,
+      "details": "Focuses on IELTS and TOEFL preparation.",
+      "category": "english",
+      "email": "emma.wilson@example.com"
+    },
+    {
+      "name": "Li Wei",
+      "image": "https://i.ibb.co.com/h8nW3BG/marialopez.png",
+      "language": "Mandarin",
+      "price": "$30/hour",
+      "ratting": 4.6,
+      "review": 0,
+      "details": "Teaches Mandarin for business and HSK preparation.",
+      "category": "mandarin",
+      "email": "li.wei@example.com"
+    },
+    {
+      "name": "Sofia Rossi",
+      "image": "https://i.ibb.co.com/123/female25.jpg",
+      "language": "Italian",
+      "price": "$20/hour",
+      "ratting": 4.7,
+      "review": 0,
+      "details": "Italian language tutor with 4 years of experience.",
+      "category": "italian",
+      "email": "sofia.rossi@example.com"
+    },
+    {
+      "name": "Marco Bellini",
+      "image": "https://i.ibb.co.com/456/male25.jpg",
+      "language": "Italian",
+      "price": "$23/hour",
+      "ratting": 4.8,
+      "review": 0,
+      "details": "Focuses on conversational Italian for travel and culture.",
+      "category": "italian",
+      "email": "marco.bellini@example.com"
+    },
+    {
+      "name": "Hassan El Arabi",
+      "image": "https://i.ibb.co.com/1rSHGsd/g.jpg",
+      "language": "Arabic",
+      "price": "$26/hour",
+      "ratting": 4.5,
+      "review": 0,
+      "details": "Teaches modern Arabic for academic and professional use.",
+      "category": "arabic",
+      "email": "hassan.elarabi@example.com"
+    },
+    {
+      "name": "Lina Ahmed",
+      "image": "https://i.ibb.co.com/HtkMyp7/fate.jpg",
+      "language": "Arabic",
+      "price": "$29/hour",
+      "ratting": 4.7,
+      "review": 0,
+      "details": "Focuses on Arabic for beginners and cultural immersion.",
+      "category": "arabic",
+      "email": "lina.ahmed@example.com"
+    },
+    {
+      "name": "Alex Brown",
+      "image": "https://i.ibb.co.com/w74RFy4/male1.jpg",
+      "language": "English",
+      "price": "$24/hour",
+      "ratting": 4.6,
+      "review": 0,
+      "details": "Teaches conversational and professional English.",
+      "category": "english",
+      "email": "alex.brown@example.com"
+    },
+    {
+      "name": "Carmen Lopez",
+      "image": "https://i.ibb.co.com/QD3skrj/karma.jpg",
+      "language": "Spanish",
+      "price": "$21/hour",
+      "ratting": 4.8,
+      "review": 0,
+      "details": "Teaches Spanish for travelers and cultural understanding.",
+      "category": "spanish",
+      "email": "carmen.lopez@example.com"
+    },
+    {
+      "name": "Emily Carter",
+      "image": "https://i.ibb.co.com/cCdjrJx/emili.jpg",
+      "language": "French",
+      "price": "$33/hour",
+      "ratting": 5,
+      "review": 0,
+      "details": "Focuses on DELF and DALF preparation.",
+      "category": "french",
+      "email": "emily.carter@example.com"
+    },
+    {
+      "name": "Tom Lee",
+      "image": "https://i.ibb.co.com/kMsPWGY/wei.jpg",
+      "language": "Korean",
+      "price": "$40/hour",
+      "ratting": 5,
+      "review": 0,
+      "details": "Teaches intermediate and advanced Korean.",
+      "category": "korean",
+      "email": "tom.lee@example.com"
+    },
+    {
+      "name": "Irene Okocha",
+      "image": "https://i.ibb.co.com/irenef.jpg",
+      "language": "Swahili",
+      "price": "$20/hour",
+      "ratting": 4.5,
+      "review": 0,
+      "details": "Focuses on regional dialect and conversation for Swahili beginners.",
+      "category": "swahili",
+      "email": "irene.okocha@example.com"
+    },
+    {
+      "name": "David Miller",
+      "image": "https://i.ibb.co.com/ZYv8VGf/japa1.jpg",
+      "language": "German",
+      "price": "$28/hour",
+      "ratting": 4.5,
+      "review": 0,
+      "details": "Native German tutor specializing in grammar and conversation.",
+      "category": "german",
+      "email": "david.miller@example.com"
+    },
+    {
+      "name": "Anna Fischer",
+      "image": "https://i.ibb.co.com/sKs2SrD/maria2.png",
+      "language": "German",
+      "price": "$30/hour",
+      "ratting": 4.8,
+      "review": 0,
+      "details": "Focuses on exam preparation for TestDaF.",
+      "category": "german",
+      "email": "anna.fischer@example.com"
+    },
+    {
+      "name": "Chen Wei",
+      "image": "https://i.ibb.co.com/wMW0mpw/yuki.jpg",
+      "language": "Mandarin",
+      "price": "$35/hour",
+      "ratting": 4.6,
+      "review": 0,
+      "details": "Mandarin teacher with focus on writing and cultural lessons.",
+      "category": "mandarin",
+      "email": "chen.wei@example.com"
+    },
+    {
+      "name": "Santiago Morales",
+      "image": "https://i.ibb.co.com/5RkWPyk/san.png",
+      "language": "Spanish",
+      "price": "$24/hour",
+      "ratting": 4.9,
+      "review": 0,
+      "details": "Teaches Spanish for travelers and business professionals.",
+      "category": "spanish",
+      "email": "santiago.morales@example.com"
+    },
+    {
+      "name": "Fatima Khan",
+      "image": "https://i.ibb.co.com/x6DS4yq/khan.jpg",
+      "language": "Hindi",
+      "price": "$17/hour",
+      "ratting": 4.7,
+      "review": 0,
+      "details": "Hindi tutor for conversational and cultural purposes.",
+      "category": "hindi",
+      "email": "fatima.khan@example.com"
+    }
+  ]
+  

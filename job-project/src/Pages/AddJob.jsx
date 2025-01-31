@@ -30,7 +30,7 @@ const jobData = Object.fromEntries(formData.entries())
     newJOb.responsibilities = newJOb.responsibilities.split(',')
  
     console.log(newJOb);
-    fetch('http://localhost:5000/jobs',{
+    fetch('https://server-wheat-iota.vercel.app/jobs',{
        method:'POST',
        headers:{
            'content-type' : 'application/json'

@@ -33,7 +33,7 @@ import Viewapplication from '../Pages/Viewapplication';
       {
         path:'/jobs/:id',
         element:<PrivateRoute><JobDetails></JobDetails></PrivateRoute>,
-        loader: ({params})=>fetch(`http://localhost:5000/jobs/${params.id}`)
+        loader: ({params})=>fetch(`https://server-wheat-iota.vercel.app/jobs/${params.id}`)
     },
     {
       path:'/jobapply/:id',
@@ -60,7 +60,7 @@ import Viewapplication from '../Pages/Viewapplication';
 {
   path:'/viewApplication/:job_id',
   element:<PrivateRoute><Viewapplication></Viewapplication></PrivateRoute>,
-  loader:({params})=>fetch(`http://localhost:5000/job-applications/jobs/${params.job_id}`)
+  loader:({params})=>fetch(`https://server-wheat-iota.vercel.app/job-applications/jobs/${params.job_id}`)
 }
       ]
     },

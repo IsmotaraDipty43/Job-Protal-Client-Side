@@ -5,18 +5,12 @@ const Latestjobs = () => {
 
 const [jobs,setJobs] = useState([])
 useEffect(()=>{
-    fetch('http://localhost:5000/jobs')
+    fetch('https://server-wheat-iota.vercel.app/alljobs')
     .then(res=>res.json())
     .then(data=>{
         setJobs(data)
     })
 },[])
-
-
-
-
-
-
     return (
         <div>
             <h1 className='m-10 text-center text-3xl font-bold'>Latest Jobs For You</h1>

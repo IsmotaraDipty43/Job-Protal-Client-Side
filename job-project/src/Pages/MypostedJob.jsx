@@ -6,7 +6,7 @@ const MypostedJob = () => {
     const {user} = useAuth()
     const [jobs, setJobs] = useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/jobs?email=${user.email}`)
+        fetch(`https://server-wheat-iota.vercel.app/jobs?email=${user.email}`)
         .then(res=>res.json())
         .then(data=>{
             setJobs(data)

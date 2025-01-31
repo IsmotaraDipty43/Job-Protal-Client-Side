@@ -5,6 +5,7 @@ import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   const {user, logout} = useContext(AuthContext)
+
   const links = (
     <>
 
